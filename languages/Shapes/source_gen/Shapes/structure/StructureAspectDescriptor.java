@@ -18,6 +18,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptColorReference = createDescriptorForColorReference();
   /*package*/ final ConceptDescriptor myConceptShape = createDescriptorForShape();
   /*package*/ final ConceptDescriptor myConceptSquare = createDescriptorForSquare();
+  /*package*/ final ConceptDescriptor myConceptTriangle = createDescriptorForTriangle();
   private final LanguageConceptSwitch myConceptIndex;
 
   public StructureAspectDescriptor() {
@@ -26,7 +27,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptCanvas, myConceptCircle, myConceptColor, myConceptColorReference, myConceptShape, myConceptSquare);
+    return Arrays.asList(myConceptCanvas, myConceptCircle, myConceptColor, myConceptColorReference, myConceptShape, myConceptSquare, myConceptTriangle);
   }
 
   @Override
@@ -45,6 +46,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptShape;
       case LanguageConceptSwitch.Square:
         return myConceptSquare;
+      case LanguageConceptSwitch.Triangle:
+        return myConceptTriangle;
       default:
         return null;
     }
@@ -105,6 +108,20 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.prop("upperLeftY", 0x622a86635ccf827aL, "7073613926055772794");
     b.prop("size", 0x622a86635ccf827dL, "7073613926055772797");
     b.alias("square");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTriangle() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Shapes", "Triangle", 0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x2f366870a567d648L);
+    b.class_(false, false, false);
+    b.super_("Shapes.structure.Shape", 0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635ccf8208L);
+    b.origin("r:7f03b7ab-3455-4a5d-937c-01923d393eaf(Shapes.structure)/3402021401545659976");
+    b.prop("point1x", 0x2f366870a567e0e5L, "3402021401545662693");
+    b.prop("point1y", 0x2f366870a567e0e7L, "3402021401545662695");
+    b.prop("point2x", 0x2f366870a567e0eaL, "3402021401545662698");
+    b.prop("point2y", 0x2f366870a567e0eeL, "3402021401545662702");
+    b.prop("point3x", 0x2f366870a567e0f3L, "3402021401545662707");
+    b.prop("point3y", 0x2f366870a567e0f9L, "3402021401545662713");
+    b.alias("triangle");
     return b.create();
   }
 }

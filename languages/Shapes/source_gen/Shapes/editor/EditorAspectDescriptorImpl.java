@@ -29,6 +29,8 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
         return Collections.<ConceptEditor>singletonList(new ColorReference_Editor());
       case 4:
         return Collections.<ConceptEditor>singletonList(new Square_Editor());
+      case 5:
+        return Collections.<ConceptEditor>singletonList(new Triangle_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -62,7 +64,7 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     return Collections.<SubstituteMenu>emptyList();
   }
 
-  private static final ConceptSwitchIndex index_xbvbvu_a0a = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635ccf8281L), MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635ccf826dL), MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635cd065d7L), MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635cd070f1L), MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635ccf8277L)).seal();
+  private static final ConceptSwitchIndex index_xbvbvu_a0a = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635ccf8281L), MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635ccf826dL), MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635cd065d7L), MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635cd070f1L), MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635ccf8277L), MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x2f366870a567d648L)).seal();
   private static final ConceptSwitchIndex index_xbvbvu_a0c = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635ccf8208L)).seal();
   private static final ConceptSwitchIndex index_xbvbvu_a0e = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x2885d0ca19c4d6aL, 0xb314985ab0b4d7e0L, 0x622a86635cd070f1L)).seal();
 }

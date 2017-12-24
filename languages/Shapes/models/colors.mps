@@ -21,5 +21,14 @@
   <node concept="YYIeO" id="68ExAdsO72R">
     <property role="TrG5h" value="red" />
   </node>
+  <node concept="YYIeO" id="2WQq72_qLB6">
+    <property role="TrG5h" value="pink" />
+  </node>
+  <node concept="YYIeO" id="2WQq72_qLBy">
+    <property role="TrG5h" value="blue" />
+  </node>
+  <node concept="YYIeO" id="2WQq72_qLBY">
+    <property role="TrG5h" value="yellow" />
+  </node>
 </model>
 

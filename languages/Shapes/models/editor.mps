@@ -179,5 +179,53 @@
       <node concept="l2Vlx" id="68ExAdsO75H" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2WQq72_pY58">
+    <ref role="1XX52x" to="2pxn:2WQq72_pXp8" resolve="Triangle" />
+    <node concept="3EZMnI" id="2WQq72_pY60" role="2wV5jI">
+      <node concept="3F0ifn" id="2WQq72_pY67" role="3EZMnx">
+        <property role="3F0ifm" value="Dreieck Punkt 1 (x: " />
+      </node>
+      <node concept="3F0A7n" id="2WQq72_pY6h" role="3EZMnx">
+        <ref role="1NtTu8" to="2pxn:2WQq72_pY3_" resolve="point1x" />
+      </node>
+      <node concept="3F0ifn" id="2WQq72_pY6p" role="3EZMnx">
+        <property role="3F0ifm" value="y: " />
+      </node>
+      <node concept="3F0A7n" id="2WQq72_pY6D" role="3EZMnx">
+        <ref role="1NtTu8" to="2pxn:2WQq72_pY3B" resolve="point1y" />
+      </node>
+      <node concept="3F0ifn" id="2WQq72_pY6P" role="3EZMnx">
+        <property role="3F0ifm" value=" Punkt 2 (x: " />
+      </node>
+      <node concept="3F0A7n" id="2WQq72_pY7b" role="3EZMnx">
+        <ref role="1NtTu8" to="2pxn:2WQq72_pY3E" resolve="point2x" />
+      </node>
+      <node concept="3F0ifn" id="2WQq72_pY7r" role="3EZMnx">
+        <property role="3F0ifm" value="y:" />
+      </node>
+      <node concept="3F0A7n" id="2WQq72_pY7R" role="3EZMnx">
+        <ref role="1NtTu8" to="2pxn:2WQq72_pY3I" resolve="point2y" />
+      </node>
+      <node concept="3F0ifn" id="2WQq72_pY8b" role="3EZMnx">
+        <property role="3F0ifm" value="Punkt 3 (x: " />
+      </node>
+      <node concept="3F0A7n" id="2WQq72_pY8H" role="3EZMnx">
+        <ref role="1NtTu8" to="2pxn:2WQq72_pY3N" resolve="point3x" />
+      </node>
+      <node concept="3F0ifn" id="2WQq72_pY95" role="3EZMnx">
+        <property role="3F0ifm" value="y:" />
+      </node>
+      <node concept="3F0A7n" id="2WQq72_pY9H" role="3EZMnx">
+        <ref role="1NtTu8" to="2pxn:2WQq72_pY3T" resolve="point3y" />
+      </node>
+      <node concept="3F0ifn" id="2WQq72_pYa9" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="l2Vlx" id="2WQq72_pY63" role="2iSdaV" />
+      <node concept="PMmxH" id="2WQq72_q8$K" role="3EZMnx">
+        <ref role="PMmxG" node="68ExAdsO75C" resolve="ShapeColor" />
+      </node>
+    </node>
+  </node>
 </model>
 

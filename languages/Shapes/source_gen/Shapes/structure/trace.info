@@ -2,13 +2,13 @@
 <debug-info version="2">
   <root>
     <file name="ConceptPresentationAspectImpl.java">
-      <unit at="11,0,69,0" name="Shapes.structure.ConceptPresentationAspectImpl" />
+      <unit at="11,0,77,0" name="Shapes.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,38,0" name="Shapes.structure.LanguageConceptSwitch" />
+      <unit at="10,0,40,0" name="Shapes.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="14,0,111,0" name="Shapes.structure.StructureAspectDescriptor" />
+      <unit at="14,0,128,0" name="Shapes.structure.StructureAspectDescriptor" />
     </file>
   </root>
 </debug-info>
